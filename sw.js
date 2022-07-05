@@ -6,24 +6,24 @@ const INMUTABLE_CACHE   = 'inmutable-v1';
 
 const APP_SHELL = [
     //'/',
-    '/index.html',
-    '/css/style.css',
-    '/img/favicon.ico',
-    '/img/avatars/hulk.jpg',
+    'index.html',
+    'css/style.css',
+    'img/favicon.ico',
+    'img/avatars/hulk.jpg',
     'img/avatars/ironman.jpg',
     'img/avatars/spiderman.jpg',
     'img/avatars/thor.jpg',
     'img/avatars/wolverine.jpg',
-    '/js/app.js',
-    '/js/sw-utils.js'
+    'js/app.js',
+    'js/sw-utils.js'
 ]
 
 const APP_SHEL_INMUTABLE = [
     'https://fonts.googleapis.com/css?family=Quicksand:300,400',
     'https://fonts.googleapis.com/css?family=Lato:400,300',
-    '/css/fontawesome.css',
-    '/css/animate.css',
-    '/js/libs/jquery.js'
+    'css/fontawesome.css',
+    'css/animate.css',
+    'js/libs/jquery.js'
 ]
 
 self.addEventListener('install', e => {
